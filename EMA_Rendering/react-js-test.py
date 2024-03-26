@@ -10,8 +10,7 @@ measure_range = st.text_input("Measure Range", '{"measureRange": "4-5"}')
 
 show_hide_checkbox = st.checkbox("Show/Hide")
 
-react_app_url = "https://64caf41777969a17e55ce9fe--gilded-meerkat-9fa9d1.netlify.app/"
-# "https://eleon024.github.io/ema_react_app/"  # Replace with the URL of your deployed React app
+react_app_url = "https://eleon024.github.io/ema_react_app/"  # Replace with the URL of your deployed React app
 
 params = {
     "pieceURL": pieceURL,
